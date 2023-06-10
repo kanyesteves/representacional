@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.sc.senac.mca.view.FormularioView">
+  <grid id="27dc6" binding="pnlFormulario" layout-manager="GridLayoutManager" row-count="26" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="859"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cf63d" class="javax.swing.JComboBox" binding="cbxQuestionC_1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f8755" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Intuição"/>
+        </properties>
+      </component>
+      <component id="50092" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="1 - Eu tomo decisões importantes baseada em:"/>
+        </properties>
+      </component>
+      <component id="761b" class="javax.swing.JComboBox" binding="cbxQuestionA_1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7bba5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="O que me soa melhor"/>
+        </properties>
+      </component>
+      <component id="dd0fa" class="javax.swing.JComboBox" binding="cbxQuestionV_1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="bc43a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="O que me parece melhor"/>
+        </properties>
+      </component>
+      <component id="2ef5" class="javax.swing.JComboBox" binding="cbxQuestionD_1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2f131" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Um estudo preciso e minuscioso do assunto"/>
+        </properties>
+      </component>
+      <component id="95d33" class="javax.swing.JComboBox" binding="cbxQuestionA_2">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1351" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tom de voz da outra pessoa"/>
+        </properties>
+      </component>
+      <component id="880fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="2 - Durante uma discussão, eu mais influenciado por:"/>
+        </properties>
+      </component>
+      <component id="bd518" class="javax.swing.JComboBox" binding="cbxQuestionV_2">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a3c75" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Se eu posso ou não ver o argumento da outra pessoa"/>
+        </properties>
+      </component>
+      <component id="d7eb9" class="javax.swing.JComboBox" binding="cbxQuestionD_2">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="30c4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A lógica do argumento da outra pessoa"/>
+        </properties>
+      </component>
+      <component id="d930e" class="javax.swing.JComboBox" binding="cbxQuestionC_2">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="28af7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Se eu entro em contato ou não com os sentimentos reais do outro"/>
+        </properties>
+      </component>
+      <component id="bfc80" class="javax.swing.JComboBox" binding="cbxQuestionV_3">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="cd262" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="No modo como me visto e aparento"/>
+        </properties>
+      </component>
+      <component id="586d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3 - Eu comunico mais facilmente o que se passa comigo:"/>
+        </properties>
+      </component>
+      <component id="110d2" class="javax.swing.JComboBox" binding="cbxQuestionC_3">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8e4be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pelos sentimentos que compartilho"/>
+        </properties>
+      </component>
+      <component id="7ca56" class="javax.swing.JComboBox" binding="cbxQuestionD_3">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="aa946" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pelas palavras que escolho"/>
+        </properties>
+      </component>
+      <component id="235ae" class="javax.swing.JComboBox" binding="cbxQuestionA_3">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e049a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pelo tom da minha voz"/>
+        </properties>
+      </component>
+      <component id="28b2f" class="javax.swing.JComboBox" binding="cbxQuestionA_4">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7ae4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Achar o volume e sintonia ideias em um sistema de som"/>
+        </properties>
+      </component>
+      <component id="fda01" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="4 - É muito fácio para mim:"/>
+        </properties>
+      </component>
+      <component id="10aff" class="javax.swing.JComboBox" binding="cbxQuestionD_4">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6304b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Selecionar o ponto mais relevante relativo a um assunto interessante"/>
+        </properties>
+      </component>
+      <component id="91d76" class="javax.swing.JComboBox" binding="cbxQuestionC_4">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="af932" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Escolher os móveis mais confortáveis"/>
+        </properties>
+      </component>
+      <component id="f76f0" class="javax.swing.JComboBox" binding="cbxQuestionV_4">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="50c44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Escolher as combinações de cores mais ricas e atraentes"/>
+        </properties>
+      </component>
+      <component id="e8c3a" class="javax.swing.JComboBox" binding="cbxQuestionA_5">
+        <constraints>
+          <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="de8c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Se estou muito em sintonia com os sons do ambiente"/>
+        </properties>
+      </component>
+      <component id="5487e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="5 - Eu me percebo assim:"/>
+        </properties>
+      </component>
+      <component id="e206f" class="javax.swing.JComboBox" binding="cbxQuestionD_5">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f5e94" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Se estou muito capaz de raciocinar com fatos e dados novos"/>
+        </properties>
+      </component>
+      <component id="6cb4" class="javax.swing.JComboBox" binding="cbxQuestionC_5">
+        <constraints>
+          <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7b99a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Eu sou muito sensível à maneira como a roupa veste meu corpo"/>
+        </properties>
+      </component>
+      <component id="5f313" class="javax.swing.JComboBox" binding="cbxQuestionV_5">
+        <constraints>
+          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="bc9e4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Eu respondo fortemente às cores e à aparência de uma sala"/>
+        </properties>
+      </component>
+      <component id="9bd10" class="javax.swing.JButton" binding="btnEnviar">
+        <constraints>
+          <grid row="25" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enviar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
