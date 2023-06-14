@@ -1,6 +1,7 @@
 package br.sc.senac.mca.view;
 
 import br.sc.senac.mca.dao.DaoFactory;
+import br.sc.senac.mca.dao.TesteDao;
 import br.sc.senac.mca.dao.UsuarioDao;
 import br.sc.senac.mca.model.Teste;
 import br.sc.senac.mca.model.Usuario;
@@ -34,13 +35,14 @@ public class FormularioView extends JFrame {
     private JComboBox cbxQuestionV_5;
     private Usuario usuario;
     private UsuarioDao usuarioDao;
+    private TesteDao testeDao;
 
     public FormularioView(Usuario usuario) {
         this.usuario = usuario;
         todosComponentes();
         inicializar();
         this.usuarioDao = DaoFactory.createUsuarioDao();
-
+        this.testeDao = DaoFactory.createTesteDao();
     }
 
     public void inicializar() {
@@ -60,9 +62,9 @@ public class FormularioView extends JFrame {
                 usuario.setTeste(criarTeste());
                 JOptionPane.showMessageDialog(null, "Enviado com sucesso");
                 usuarioDao.insercao(usuario);
+                testeDao.insercao(usuario.getTeste());
                 ResultadoView resultView = new ResultadoView(usuario);
                 dispose();
-
             }
         });
     }

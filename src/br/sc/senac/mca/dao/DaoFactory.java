@@ -9,7 +9,7 @@ public class DaoFactory {
         return new UsuarioDaoJDBC(ConnectionFactory.getConexao());
     }
 
-    public static TesteDao createTesteDao(){
+    public static TesteDao createTesteDao() {
         return new TesteDaoJDBC(ConnectionFactory.getConexao());
     }
 }

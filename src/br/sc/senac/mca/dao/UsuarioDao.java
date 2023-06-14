@@ -3,9 +3,7 @@ package br.sc.senac.mca.dao;
 import br.sc.senac.mca.model.Usuario;
 
 public interface UsuarioDao {
-    public Usuario acharPorId(Integer id);
+    public Usuario acharPorLoginESenha(String login, String senha);
 
-    public boolean autenticacao(String login, String senha);
-
-    public void insercao(Usuario usuario);
+    public Integer insercao(Usuario usuario);
 }
