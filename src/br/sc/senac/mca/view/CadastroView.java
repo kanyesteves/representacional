@@ -29,21 +29,21 @@ public class CadastroView extends JFrame {
     private UsuarioDao usuarioDao;
 
     public CadastroView() {
-        initializer();
-        allComponents();
+        inicializar();
+        todosComponentes();
         this.usuarioDao = DaoFactory.createUsuarioDao();
     }
 
-    private void initializer() {
+    private void inicializar() {
         setVisible(true);
-        setSize(300, 210);
+        setSize(400, 250);
         setTitle("Cadastro");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setContentPane(pnlCadastro);
         setLocationRelativeTo(null);
     }
 
-    private void allComponents() {
+    private void todosComponentes() {
         btnCadastrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -51,6 +51,9 @@ public class CadastroView extends JFrame {
                     Usuario usuario = CriarUsuario();
                     FormularioView formView = new FormularioView(usuario);
                     dispose();
+                    if(formView == null){
+                        JOptionPane.showMessageDialog(null, "Dados Incorretos");
+                    }
                 } catch (Exception exception) {
                     System.out.println(exception.getMessage());
                 }

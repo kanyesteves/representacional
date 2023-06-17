@@ -61,7 +61,7 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Fase"/>
+          <text value="Fase:"/>
         </properties>
       </component>
       <component id="c6b28" class="javax.swing.JButton" binding="btnCadastrar">
@@ -101,7 +101,7 @@
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Senha"/>
+          <text value="Senha:"/>
         </properties>
       </component>
       <component id="2e899" class="javax.swing.JComboBox" binding="cbxFase">

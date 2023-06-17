@@ -8,13 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/TesteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/TesteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/UsuarioDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R0L0kYVHVOuVZ7DqGvcSPKOTLU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

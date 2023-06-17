@@ -3,6 +3,7 @@ package br.sc.senac.mca.view;
 import br.sc.senac.mca.dao.DaoFactory;
 import br.sc.senac.mca.dao.UsuarioDao;
 import br.sc.senac.mca.model.Usuario;
+import br.sc.senac.mca.util.ConnectionFactory;
 
 import javax.swing.*;
 import java.awt.*;
@@ -40,6 +41,7 @@ public class LoginView extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
+                ConnectionFactory.closeConnection();
             }
         });
         btnRegistrar.addActionListener(new ActionListener() {

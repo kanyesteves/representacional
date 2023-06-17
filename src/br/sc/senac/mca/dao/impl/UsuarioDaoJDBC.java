@@ -5,15 +5,16 @@ import java.sql.*;
 import br.sc.senac.mca.dao.UsuarioDao;
 import br.sc.senac.mca.model.Teste;
 import br.sc.senac.mca.model.Usuario;
+import br.sc.senac.mca.util.ConnectionFactory;
 
 import javax.swing.*;
 
 public class UsuarioDaoJDBC implements UsuarioDao {
 
-    Connection conn = null;
+    Connection conexao = null;
 
-    public UsuarioDaoJDBC(Connection conn) {
-        this.conn = conn;
+    public UsuarioDaoJDBC(Connection conexao) {
+        this.conexao = conexao;
     }
 
     @Override
@@ -21,7 +22,7 @@ public class UsuarioDaoJDBC implements UsuarioDao {
         PreparedStatement st = null;
         ResultSet rs = null;
         try {
-            st = conn.prepareStatement("select usuario.id, usuario.nome, usuario.login, usuario.dataAniversario, usuario.curso, usuario.fase, usuario.senha, teste.id, teste.digital, teste.auditivo, teste.cinestesico, teste.visual from usuario "
+            st = conexao.prepareStatement("select usuario.id, usuario.nome, usuario.login, usuario.dataAniversario, usuario.curso, usuario.fase, usuario.senha, teste.id, teste.digital, teste.auditivo, teste.cinestesico, teste.visual from usuario "
                     + "inner join usuario_tem_teste on usuario.id = usuario_tem_teste.id_usuario inner join teste on teste.id = usuario_tem_teste.id_teste where usuario.login = ? and usuario.senha = ?;\r\n"
                     + "");
             st.setString(1, login);
@@ -32,6 +33,9 @@ public class UsuarioDaoJDBC implements UsuarioDao {
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        } finally {
+            ConnectionFactory.CloseResultSet(rs);
+            ConnectionFactory.CloseStatement(st);
         }
         return null;
     }
@@ -39,8 +43,9 @@ public class UsuarioDaoJDBC implements UsuarioDao {
     @Override
     public Integer insercao(Usuario usuario) {
         PreparedStatement st = null;
+        ResultSet rs = null;
         try {
-            st = conn.prepareStatement("insert into usuario(login, nome, dataAniversario, curso, fase, senha)"
+            st = conexao.prepareStatement("insert into usuario(login, nome, dataAniversario, curso, fase, senha)"
                     + "values( ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
             st.setString(1, usuario.getLogin());
             st.setString(2, usuario.getNome());
@@ -51,8 +56,8 @@ public class UsuarioDaoJDBC implements UsuarioDao {
             int row = st.executeUpdate();
             if (row > 0) {
                 System.out.println("Cadastrado com sucesso!");
-                ResultSet rs = st.getGeneratedKeys();
-                if(rs.next()){
+                rs = st.getGeneratedKeys();
+                if (rs.next()) {
                     return rs.getInt(1);
                 }
             } else {
@@ -60,6 +65,9 @@ public class UsuarioDaoJDBC implements UsuarioDao {
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+        } finally {
+            ConnectionFactory.CloseResultSet(rs);
+            ConnectionFactory.CloseStatement(st);
         }
         return null;
     }

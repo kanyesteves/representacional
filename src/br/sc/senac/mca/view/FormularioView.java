@@ -3,6 +3,7 @@ package br.sc.senac.mca.view;
 import br.sc.senac.mca.dao.DaoFactory;
 import br.sc.senac.mca.dao.TesteDao;
 import br.sc.senac.mca.dao.UsuarioDao;
+import br.sc.senac.mca.dao.UsuarioTemTesteDao;
 import br.sc.senac.mca.model.Teste;
 import br.sc.senac.mca.model.Usuario;
 
@@ -36,6 +37,7 @@ public class FormularioView extends JFrame {
     private Usuario usuario;
     private UsuarioDao usuarioDao;
     private TesteDao testeDao;
+    private UsuarioTemTesteDao usuarioTemTesteDao;
 
     public FormularioView(Usuario usuario) {
         this.usuario = usuario;
@@ -43,6 +45,7 @@ public class FormularioView extends JFrame {
         inicializar();
         this.usuarioDao = DaoFactory.createUsuarioDao();
         this.testeDao = DaoFactory.createTesteDao();
+        this.usuarioTemTesteDao = DaoFactory.createUsuarioTemTesteDao();
     }
 
     public void inicializar() {
@@ -60,11 +63,15 @@ public class FormularioView extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 usuario.setTeste(criarTeste());
-                JOptionPane.showMessageDialog(null, "Enviado com sucesso");
-                usuarioDao.insercao(usuario);
-                testeDao.insercao(usuario.getTeste());
+                JOptionPane.showMessageDialog(null, "Cadastrado com sucesso");
+                Integer idUsuario = usuarioDao.insercao(usuario);
+                Integer idTeste = testeDao.insercao(usuario.getTeste());
+                usuarioTemTesteDao.vincularUsuarioTeste(idUsuario,idTeste);
                 ResultadoView resultView = new ResultadoView(usuario);
                 dispose();
+                if(usuario == null){
+                    JOptionPane.showMessageDialog(null, "Dados incorretos");
+                }
             }
         });
     }

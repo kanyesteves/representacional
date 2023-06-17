@@ -25,7 +25,6 @@ public class ResultadoView extends JFrame {
     private JLabel lblFaseFix;
     private JLabel lblDataNascimento;
     private JLabel lblFase;
-
     private Usuario usuario;
 
     public ResultadoView(Usuario usuario) {
