@@ -5,9 +5,9 @@ import javax.xml.transform.Result;
 import java.sql.*;
 
 public class ConnectionFactory {
-    private static final String URL = "jdbc:mysql://localhost:3306/gerenciamento";
+    private static final String URL = "jdbc:mysql://localhost:3306/representacional";
     private static final String USER = "root";
-    private static final String PASSWORD = "root"; //
+    private static final String PASSWORD = "132567";
     private static Connection conexao;
 
     private ConnectionFactory() {

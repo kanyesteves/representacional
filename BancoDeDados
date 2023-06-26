@@ -1,6 +1,6 @@
-create database gerenciamento;
+create database representacional;
 
-use gerenciamento;
+use representacional;
 
 create table teste(
 id integer auto_increment primary key,

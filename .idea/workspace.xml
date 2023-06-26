@@ -6,17 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="77ca5ed4-9e69-422c-91f2-15bd9d326a0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BancoDeDados" beforeDir="false" afterPath="$PROJECT_DIR$/BancoDeDados" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteRepresentacional/br/sc/senac/mca/util/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteRepresentacional/br/sc/senac/mca/util/ConnectionFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;235&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cliente/Documents/Ryan/Formulario/teste_sistema_representacional&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "235",
+    "last_opened_file_path": "C:/Users/kany2/IdeaProjects/Teste_Representacional",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,5 +58,16 @@
       <updated>1686381831540</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
